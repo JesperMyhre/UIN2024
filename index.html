@@ -11,28 +11,12 @@
         <header>
             <img id="logo" src="website_images/LD_logo.svg" alt="LEGOdudes nettbutikk">
             <button onclick="showCart()">
-                <span>99</span>
+                <span id="cartCount"></span>
                 <img id="cart-icon" src="website_images/legocart.svg" alt="Din handlevogn">
             </button>
             <section id="cart">
                 <h2>Din handlevogn</h2>
-                <ul>
-                    <li>
-                        <span class="title">Produkt-tittel</span>
-                        <span class="price">34,-</span>
-                        <span class="quantity">x3</span>
-                        <span class="functions">
-                            <button>X</button>
-                        </span>
-                    </li>
-                    <li>
-                        <span class="title">Wengestone Warrior</span>
-                        <span class="price">89,-</span>
-                        <span class="quantity">x333</span>
-                        <span class="functions">
-                            <button>X</button>
-                        </span>
-                    </li>
+                <ul id="cartList">
                 </ul>
             </section>
         </header>

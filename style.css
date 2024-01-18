@@ -71,7 +71,9 @@ header button span {
     position: absolute;
     top: -0.8rem;
     left: -0.3rem;
-}
+  }
+  
+  /* Handlevogn produktliste */
 
 #cart {
     position: absolute;
@@ -80,7 +82,6 @@ header button span {
     border-left: 8px solid var(--green);
     color: var(--white);
     width: 500px;
-    height: 200px;
     right: 0.5rem;
     top: 4rem;
     display: block;
@@ -88,13 +89,12 @@ header button span {
 
 #cart-icon {max-width: 2rem;}
 
-/* Handlevogn produktliste */
 
 #cart h2, ul {
     padding: 1rem;
     margin: 0;
     list-style: none;
-    width: 100%;
+    max-width: 100%;
 }
 
 #cart ul li {
@@ -118,7 +118,7 @@ header button span {
 }
 
 .title {
-    width: calc(90% - 10rem);
+    width: calc(90% - 8rem);
 }
 
 .price {
